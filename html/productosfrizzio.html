@@ -18,47 +18,97 @@
 </head>
 
 <body>
+  <div class="container">
+      <header class="header row">
 
-    <header class="header">
-        <div class="conteiner logo-nav-conteiner">
-          <a href="./index.html"><img class="img" src="..//img/logo-removebg-preview.png"></a>
-          <nav class="navigation">
-           <ul>         
-            <li><a href="./productosgrido.html">Productos Grido</a></li>
-            <li><a href="./productosfrizzio.html">Productos Frizzio</a></li>
-            <li><a href="./compranos.html">Compranos</a></li>
-            <li><a href="./contactanos.html">Contacto</a></li>
-           </ul>
-          </nav>
-        </div> 
+        
+              <section class="top-nav">
+                <div>
+                  <div class="conteiner logo-nav-conteiner">
+                      <a href="../index.html"><img class="img" src="../img/logo-removebg-preview.png"></a>
+                  </div> 
+                </div>
+              <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+                </label>
+          
+
+                <ul class="menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/productosgrido.html">Productos Grido</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/productosfrizzio.html">Productos Frizzio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/compranos.html">Compranos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/contactanos.html">Contacto</a>
+                  </li>
+              
+                </ul>
+            </section>
+
+        
       </header>
+  </div>
+    <main class="row">
+                  <section class= "textos-heder" >
+                      <h1 class="titulo1">Grido</h1>
+                      <h2><i> Disfrutemos Juntos</i></h2>
+                  
+                    <div class="wave"style="height: 150px; overflow: hidden;" >
+                      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 80%;
+                      width: 100%;">
+                        <path d="M0.02,17.16 C185.68,260.88 349.20,-49.98 500.00,49.98 
+                        L500.00,149.98 L0.00,149.98 Z" style="stroke: none; fill: #08f;">
+                        </path></svg>
+                    </div>
+                  </section>
+      
 
-    <section class= ¨textos-heder¨>
-        <h1 class="titulo1">Grido</h1>
-        <h2><i> Disfrutemos Juntos</i></h2>
-    
-      <div class="wave"style="height: 150px; overflow: hidden;" >
-        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%;
-         width: 100%;">
-          <path d="M0.02,17.16 C185.68,260.88 349.20,-49.98 500.00,49.98 
-          L500.00,149.98 L0.00,149.98 Z" style="stroke: none; fill: #08f;">
-          </path></svg>
-      </div>
-    </section>
-  
-    <div class="texto-ayuda">
-      <input type="text" value="Ayudanos a mejorar"> 
-  
-      <button>Enviar</button>
-     </div>
+
+                  <div class="cajas">
+                    <div class="sabores">
+                      Frutilla
+                    </div>
+                    <div class="sabores">
+                      Dulce de leche
+                    </div>
+                    <div class="sabores">
+                      Chocolate
+                    </div>
+                    <div class="sabores">
+                      Limon
+                    </div>
+                </div>
+          
+      
+                  <form class="texto-ayuda">
+                    <input type="text" id="text" placeholder="Ayudanos a mejorar"> 
+                    <input type="submit" id="enviar" value="Enviar">
+                    
+                  </form>
+    </main>
+ 
+<footer class="footer row">
+  <div class="container-footer">
+    <p>Diseño: Federico Lebron</p>
+  </div>
+  <section class="boton">
+    <div class="icono-footer">
+      <a href="#"><img class="img-footter" src="..//img/toppng.com-watercolor-facebook-logo-379x343.png"></a>
+      <a href="#"><img class="img-footter" src="..//img/toppng.com-visit-instagram-vectores-redes-sociales-517x489.png"></a>
+      <a href="#"><img class="img-footter" src="..//img/toppng.com-whatsapp-960x540.png"></a>
     </div>
-  
-  
-    <footer class="footer">
-      <div class="conteiner">
-        <p>Diseño de Federico Lebron</p>
-      </div>
+  </section>
 
-    </footer>
+</footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html> 
